@@ -1,0 +1,387 @@
+{
+  "common": {
+    "home": "Home",
+    "calculators": "Calculators",
+    "learn": "Learn",
+    "about": "About",
+    "backToHome": "Back to Home",
+    "calculate": "Calculate",
+    "currency": "$",
+    "months": "months",
+    "years": "years",
+    "tryCalculator": "Try Calculator",
+    "calculateNow": "Calculate Now",
+    "startLearning": "Start Learning",
+    "language": "Language"
+  },
+  "header": {
+    "title": "Finance Learning Hub",
+    "tagline": "Empowering you with financial knowledge and tools for a better future."
+  },
+  "home": {
+    "heroTitle": "Master Your Financial Future",
+    "heroDescription": "Learn personal finance with interactive calculators and educational content. Take control of your money and build wealth for the future.",
+    "tryCalculators": "Try Calculators",
+    "calculatorsTitle": "Financial Calculators",
+    "calculatorsDescription": "Use our interactive calculators to plan your financial goals and make informed decisions.",
+    "learningTitle": "Learn Personal Finance",
+    "learningDescription": "Build your financial knowledge with our educational resources and guides."
+  },
+  "calculators": {
+    "fixedDeposit": {
+      "title": "Fixed Deposit Calculator",
+      "description": "Calculate returns on your fixed deposits with compound interest calculations.",
+      "features": [
+        "Compound interest calculation",
+        "Different compounding frequencies",
+        "Interest earnings breakdown"
+      ],
+      "pageTitle": "Fixed Deposit Calculator",
+      "pageDescription": "Calculate returns on your fixed deposits with compound interest. Plan your investments and see how your money grows over time.",
+      "investmentDetails": "Investment Details",
+      "principalAmount": "Principal Amount",
+      "principalPlaceholder": "Enter initial investment",
+      "annualInterestRate": "Annual Interest Rate (%)",
+      "interestRatePlaceholder": "Enter interest rate",
+      "timePeriod": "Time Period (Years)",
+      "timePeriodPlaceholder": "Enter time period",
+      "compoundingFrequency": "Compounding Frequency",
+      "frequencies": {
+        "annually": "Annually",
+        "semiAnnually": "Semi-annually",
+        "quarterly": "Quarterly",
+        "monthly": "Monthly",
+        "daily": "Daily"
+      },
+      "calculateReturns": "Calculate Returns",
+      "results": {
+        "title": "Investment Results",
+        "initialInvestment": "Initial Investment:",
+        "totalInterestEarned": "Total Interest Earned:",
+        "finalAmount": "Final Amount:"
+      },
+      "education": {
+        "title": "Understanding Fixed Deposits",
+        "description": "A fixed deposit (FD) is a financial instrument that provides a higher rate of return compared to regular savings accounts, until the given maturity date.",
+        "benefits": "Key Benefits:",
+        "benefitsList": [
+          "Guaranteed returns with fixed interest rates",
+          "Safe investment option with low risk",
+          "Flexible tenure options",
+          "Loan facility against FD"
+        ],
+        "compoundingImpact": "Compounding Frequency Impact:",
+        "compoundingList": [
+          "Daily: Interest compounded every day (365 times/year)",
+          "Monthly: Interest compounded every month (12 times/year)",
+          "Quarterly: Interest compounded every quarter (4 times/year)",
+          "Annually: Interest compounded once per year"
+        ]
+      }
+    },
+    "emergencyFund": {
+      "title": "Emergency Fund Calculator",
+      "description": "Determine how much you need to save for financial emergencies.",
+      "features": [
+        "3-6 months expense coverage",
+        "Savings timeline calculation",
+        "Monthly contribution planning"
+      ],
+      "pageTitle": "Emergency Fund Calculator",
+      "pageDescription": "Build your financial safety net. Calculate how much you need to save for emergencies and create a plan to reach your goal.",
+      "details": "Emergency Fund Details",
+      "monthlyExpenses": "Monthly Expenses",
+      "monthlyExpensesPlaceholder": "Enter your monthly expenses",
+      "monthlyExpensesHelp": "Include rent, utilities, food, transportation, and other essential expenses",
+      "currentSavings": "Current Emergency Savings",
+      "currentSavingsPlaceholder": "Enter current emergency savings",
+      "targetMonths": "Target Months of Expenses",
+      "targetOptions": {
+        "3months": "3 months (Minimum recommended)",
+        "6months": "6 months (Standard recommendation)",
+        "9months": "9 months (Conservative approach)",
+        "12months": "12 months (Maximum security)"
+      },
+      "monthlyContribution": "Monthly Contribution",
+      "monthlyContributionPlaceholder": "Enter monthly savings amount",
+      "calculateFund": "Calculate Emergency Fund",
+      "results": {
+        "title": "Emergency Fund Status",
+        "targetFund": "Target Emergency Fund:",
+        "currentSavings": "Current Savings:",
+        "amountNeeded": "Amount Still Needed:",
+        "monthsToTarget": "Months to Target:",
+        "congratulations": "Congratulations! You've reached your emergency fund goal."
+      },
+      "education": {
+        "title": "Emergency Fund Essentials",
+        "description": "An emergency fund is a financial safety net designed to cover unexpected expenses such as medical bills, job loss, or major repairs.",
+        "timeline": "Recommended Timeline:",
+        "timelineList": [
+          "3 months: Minimum for stable employment",
+          "6 months: Standard recommendation for most people",
+          "9-12 months: For irregular income or high-risk jobs"
+        ],
+        "bestPractices": "Best Practices:",
+        "practicesList": [
+          "Keep funds in a high-yield savings account",
+          "Make it easily accessible but separate from daily spending",
+          "Automate monthly contributions",
+          "Only use for true emergencies"
+        ]
+      }
+    },
+    "annualSavings": {
+      "title": "Annual Savings Calculator",
+      "description": "Plan your retirement savings and calculate required annual contributions.",
+      "features": [
+        "Retirement planning",
+        "Investment growth projections",
+        "Required savings calculation"
+      ],
+      "pageTitle": "Annual Savings Calculator",
+      "pageDescription": "Plan your retirement and long-term financial goals. Calculate how much you need to save annually to reach your target amount.",
+      "details": "Retirement Planning",
+      "targetAmount": "Target Retirement Amount",
+      "targetAmountPlaceholder": "Enter your retirement goal",
+      "targetAmountHelp": "How much money do you want to have when you retire?",
+      "currentAge": "Current Age",
+      "currentAgePlaceholder": "Enter your current age",
+      "retirementAge": "Planned Retirement Age",
+      "retirementAgePlaceholder": "Enter planned retirement age",
+      "expectedReturn": "Expected Annual Return (%)",
+      "expectedReturnPlaceholder": "Expected investment return",
+      "expectedReturnHelp": "Historical stock market average is around 7-10%",
+      "currentSavings": "Current Retirement Savings",
+      "currentSavingsPlaceholder": "Enter current savings",
+      "calculatePlan": "Calculate Savings Plan",
+      "results": {
+        "title": "Savings Plan Results",
+        "retirementGoal": "Retirement Goal:",
+        "currentSavings": "Current Savings:",
+        "futureValue": "Future Value of Current Savings:",
+        "yearsToRetirement": "Years to Retirement:",
+        "additionalNeeded": "Additional Amount Needed:",
+        "requiredAnnual": "Required Annual Savings:",
+        "requiredMonthly": "Required Monthly Savings:"
+      },
+      "education": {
+        "title": "Retirement Planning Tips",
+        "description": "Retirement planning is crucial for financial security. The earlier you start, the more time your money has to grow through compound interest.",
+        "strategies": "Key Strategies:",
+        "strategiesList": [
+          "Start Early: Even small amounts can grow significantly over time",
+          "Automate Savings: Set up automatic transfers to retirement accounts",
+          "Diversify Investments: Don't put all eggs in one basket",
+          "Take Advantage of Employer Match: Free money from 401(k) matching"
+        ],
+        "ruleOfThumb": "Rule of Thumb:",
+        "rulesList": [
+          "Save 10-15% of your income for retirement",
+          "Aim to replace 70-90% of pre-retirement income",
+          "Consider inflation in your planning (3% annually)",
+          "Review and adjust your plan annually"
+        ],
+        "disclaimer": "Note: This calculator provides estimates based on the inputs provided. Consult with a financial advisor for personalized retirement planning advice."
+      }
+    }
+  },
+  "learn": {
+    "title": "Financial Learning Center",
+    "description": "Master the fundamentals of personal finance with our comprehensive guides, practical tips, and expert insights. Start your journey to financial freedom today.",
+    "learningPath": {
+      "title": "Your Financial Learning Path",
+      "steps": [
+        {
+          "title": "Basics",
+          "description": "Learn financial fundamentals"
+        },
+        {
+          "title": "Budgeting",
+          "description": "Master money management"
+        },
+        {
+          "title": "Saving",
+          "description": "Build your financial foundation"
+        },
+        {
+          "title": "Investing",
+          "description": "Grow your wealth"
+        }
+      ]
+    },
+    "topics": {
+      "emergencyFund": {
+        "title": "Emergency Fund Basics",
+        "description": "Learn why emergency funds are crucial and how to build one that protects you from financial disasters.",
+        "whatYoullLearn": "What You'll Learn:",
+        "learningPoints": [
+          "Why emergency funds matter",
+          "How much to save (3-6 months rule)",
+          "Where to keep emergency money",
+          "When to use your emergency fund"
+        ]
+      },
+      "fixedDeposit": {
+        "title": "Fixed Deposit Investment",
+        "description": "Understand how fixed deposits work and learn to maximize your returns through compound interest.",
+        "whatYoullLearn": "What You'll Learn:",
+        "learningPoints": [
+          "How compound interest works",
+          "Choosing the right FD tenure",
+          "Comparing interest rates",
+          "Tax implications of FDs"
+        ]
+      },
+      "retirementPlanning": {
+        "title": "Retirement Planning",
+        "description": "Plan for your golden years with smart saving strategies and investment growth projections.",
+        "whatYoullLearn": "What You'll Learn:",
+        "learningPoints": [
+          "Setting retirement goals",
+          "Power of starting early",
+          "Investment allocation strategies",
+          "401(k) and employer matching"
+        ]
+      },
+      "budgeting": {
+        "title": "Budgeting Fundamentals",
+        "description": "Master the art of budgeting to take control of your money and achieve your financial goals.",
+        "keyConcepts": "Key Concepts:",
+        "concepts": [
+          "50/30/20 budgeting rule",
+          "Tracking your expenses",
+          "Zero-based budgeting",
+          "Budgeting tools and apps"
+        ]
+      },
+      "debtManagement": {
+        "title": "Debt Management",
+        "description": "Learn strategies to pay off debt efficiently and avoid the debt trap that keeps many people stuck.",
+        "strategiesCovered": "Strategies Covered:",
+        "strategies": [
+          "Debt snowball vs. avalanche",
+          "Credit card management",
+          "Debt consolidation options",
+          "Building good credit"
+        ]
+      },
+      "homeBuying": {
+        "title": "Home Buying Guide",
+        "description": "Navigate the home buying process with confidence, from saving for a down payment to closing.",
+        "whatsIncluded": "What's Included:",
+        "included": [
+          "Down payment strategies",
+          "Mortgage types explained",
+          "Home affordability calculations",
+          "First-time buyer programs"
+        ]
+      }
+    },
+    "financialTips": {
+      "title": "Essential Financial Tips",
+      "gettingStarted": "Getting Started",
+      "buildingWealth": "Building Wealth",
+      "gettingStartedTips": [
+        {
+          "title": "Track Your Spending:",
+          "description": "Know where your money goes before you can control it."
+        },
+        {
+          "title": "Build an Emergency Fund:",
+          "description": "Start with $1,000, then work toward 3-6 months of expenses."
+        },
+        {
+          "title": "Pay Off High-Interest Debt:",
+          "description": "Focus on credit cards and other high-interest debt first."
+        }
+      ],
+      "buildingWealthTips": [
+        {
+          "title": "Start Investing Early:",
+          "description": "Time is your greatest asset when building wealth."
+        },
+        {
+          "title": "Automate Your Savings:",
+          "description": "Pay yourself first by automating transfers to savings."
+        },
+        {
+          "title": "Diversify Your Investments:",
+          "description": "Don't put all your eggs in one basket."
+        }
+      ]
+    },
+    "actionSection": {
+      "title": "Ready to Take Action?",
+      "description": "Knowledge without action is just potential. Start applying what you've learned with our interactive calculators and begin building your financial future today.",
+      "buttons": {
+        "emergencyFund": "Start with Emergency Fund",
+        "fixedDeposit": "Calculate FD Returns",
+        "retirement": "Plan for Retirement"
+      }
+    }
+  },
+  "about": {
+    "title": "About Finance Learning Hub",
+    "description": "Empowering individuals with the knowledge and tools they need to make informed financial decisions and build a secure financial future.",
+    "mission": {
+      "title": "Our Mission",
+      "paragraph1": "Financial literacy is a crucial life skill that everyone deserves to have. Our mission is to make financial education accessible, practical, and engaging for people at all stages of their financial journey. We believe that with the right tools and knowledge, anyone can take control of their finances and build wealth for the future.",
+      "paragraph2": "Through interactive calculators, educational content, and practical guidance, we aim to demystify personal finance and help you make confident financial decisions that align with your goals and values."
+    },
+    "whatWeOffer": [
+      {
+        "title": "Interactive Calculators",
+        "description": "Powerful, easy-to-use calculators for fixed deposits, emergency funds, and annual savings planning. Get instant results with detailed breakdowns and explanations."
+      },
+      {
+        "title": "Educational Content",
+        "description": "Comprehensive guides and articles that explain financial concepts in simple terms. Learn at your own pace with practical examples and real-world applications."
+      },
+      {
+        "title": "Expert Guidance",
+        "description": "Best practices and strategies developed by financial experts. Get actionable advice that you can implement immediately to improve your financial situation."
+      }
+    ],
+    "ourStory": {
+      "title": "Our Story",
+      "paragraph1": "Finance Learning Hub was created out of a simple observation: too many people struggle with basic financial concepts not because they lack intelligence, but because they lack access to clear, practical financial education.",
+      "paragraph2": "We noticed that traditional financial education often involves complex jargon, intimidating concepts, and theoretical knowledge that doesn't translate well to real-world situations. We wanted to change that.",
+      "paragraph3": "Our platform combines interactive tools with educational content to create a learning experience that is both practical and engaging. Whether you're just starting your financial journey or looking to optimize your existing financial strategy, we're here to help you succeed."
+    },
+    "values": {
+      "title": "Our Values",
+      "valuesList": [
+        {
+          "title": "Accessibility",
+          "description": "Financial education should be available to everyone, regardless of their background or current financial situation."
+        },
+        {
+          "title": "Simplicity",
+          "description": "We break down complex financial concepts into simple, understandable terms that anyone can grasp."
+        },
+        {
+          "title": "Practicality",
+          "description": "Our tools and content focus on actionable strategies that you can implement in your daily financial life."
+        },
+        {
+          "title": "Transparency",
+          "description": "We provide clear explanations of how our calculators work and the assumptions behind our recommendations."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Have questions, suggestions, or feedback? We'd love to hear from you and help you on your financial journey.",
+      "buttons": {
+        "startLearning": "Start Learning",
+        "tryCalculators": "Try Our Calculators"
+      }
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "calculators": "Calculators",
+    "copyright": "© 2024 Finance Learning Hub. All rights reserved."
+  }
+}

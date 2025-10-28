@@ -1,7 +1,13 @@
+'use client';
+
 import Link from 'next/link';
 import { DollarSign, BookOpen, Target, Shield, TrendingUp, Calculator, PiggyBank, CreditCard, Home, GraduationCap, ArrowLeft, ArrowRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import LanguageSelector from '@/components/LanguageSelector';
 
 export default function Learn() {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Header */}
@@ -10,14 +16,17 @@ export default function Learn() {
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
               <DollarSign className="h-8 w-8 text-blue-600 mr-2" />
-              <h1 className="text-2xl font-bold text-gray-900">Finance Learning Hub</h1>
+              <h1 className="text-2xl font-bold text-gray-900">{t('header.title')}</h1>
             </div>
-            <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-500 hover:text-gray-900">Home</Link>
-              <Link href="/calculators" className="text-gray-500 hover:text-gray-900">Calculators</Link>
-              <Link href="/learn" className="text-blue-600 font-medium">Learn</Link>
-              <Link href="/about" className="text-gray-500 hover:text-gray-900">About</Link>
-            </nav>
+            <div className="flex items-center space-x-8">
+              <nav className="hidden md:flex space-x-8">
+                <Link href="/" className="text-gray-500 hover:text-gray-900">{t('common.home')}</Link>
+                <Link href="/calculators" className="text-gray-500 hover:text-gray-900">{t('common.calculators')}</Link>
+                <Link href="/learn" className="text-blue-600 font-medium">{t('common.learn')}</Link>
+                <Link href="/about" className="text-gray-500 hover:text-gray-900">{t('common.about')}</Link>
+              </nav>
+              <LanguageSelector />
+            </div>
           </div>
         </div>
       </header>
@@ -26,7 +35,7 @@ export default function Learn() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         <Link href="/" className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-6">
           <ArrowLeft className="h-4 w-4 mr-2" />
-          Back to Home
+          {t('common.backToHome')}
         </Link>
       </div>
 
@@ -37,10 +46,9 @@ export default function Learn() {
           <div className="flex justify-center mb-6">
             <GraduationCap className="h-16 w-16 text-blue-600" />
           </div>
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">Financial Learning Center</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-6">{t('learn.title')}</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Master the fundamentals of personal finance with our comprehensive guides, practical tips, and expert insights. 
-            Start your journey to financial freedom today.
+            {t('learn.description')}
           </p>
         </div>
 

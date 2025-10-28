@@ -1,0 +1,387 @@
+{
+  "common": {
+    "home": "Laman Utama",
+    "calculators": "Kalkulator",
+    "learn": "Belajar",
+    "about": "Tentang",
+    "backToHome": "Kembali ke Laman Utama",
+    "calculate": "Kira",
+    "currency": "RM",
+    "months": "bulan",
+    "years": "tahun",
+    "tryCalculator": "Cuba Kalkulator",
+    "calculateNow": "Kira Sekarang",
+    "startLearning": "Mula Belajar",
+    "language": "Bahasa"
+  },
+  "header": {
+    "title": "Pusat Pembelajaran Kewangan",
+    "tagline": "Memperkasakan anda dengan pengetahuan kewangan dan alat untuk masa depan yang lebih baik."
+  },
+  "home": {
+    "heroTitle": "Kuasai Masa Depan Kewangan Anda",
+    "heroDescription": "Pelajari kewangan peribadi dengan kalkulator interaktif dan kandungan pendidikan. Kawal wang anda dan bina kekayaan untuk masa depan.",
+    "tryCalculators": "Cuba Kalkulator",
+    "calculatorsTitle": "Kalkulator Kewangan",
+    "calculatorsDescription": "Gunakan kalkulator interaktif kami untuk merancang matlamat kewangan anda dan membuat keputusan yang bijak.",
+    "learningTitle": "Belajar Kewangan Peribadi",
+    "learningDescription": "Bina pengetahuan kewangan anda dengan sumber pendidikan dan panduan kami."
+  },
+  "calculators": {
+    "fixedDeposit": {
+      "title": "Kalkulator Deposit Tetap",
+      "description": "Kira pulangan deposit tetap anda dengan pengiraan faedah kompaun.",
+      "features": [
+        "Pengiraan faedah kompaun",
+        "Kekerapan kompaun yang berbeza",
+        "Pecahan pendapatan faedah"
+      ],
+      "pageTitle": "Kalkulator Deposit Tetap",
+      "pageDescription": "Kira pulangan deposit tetap anda dengan faedah kompaun. Rancang pelaburan anda dan lihat bagaimana wang anda berkembang dari masa ke masa.",
+      "investmentDetails": "Butiran Pelaburan",
+      "principalAmount": "Jumlah Prinsipal",
+      "principalPlaceholder": "Masukkan pelaburan awal",
+      "annualInterestRate": "Kadar Faedah Tahunan (%)",
+      "interestRatePlaceholder": "Masukkan kadar faedah",
+      "timePeriod": "Tempoh Masa (Tahun)",
+      "timePeriodPlaceholder": "Masukkan tempoh masa",
+      "compoundingFrequency": "Kekerapan Kompaun",
+      "frequencies": {
+        "annually": "Tahunan",
+        "semiAnnually": "Separuh Tahunan",
+        "quarterly": "Suku Tahunan",
+        "monthly": "Bulanan",
+        "daily": "Harian"
+      },
+      "calculateReturns": "Kira Pulangan",
+      "results": {
+        "title": "Keputusan Pelaburan",
+        "initialInvestment": "Pelaburan Awal:",
+        "totalInterestEarned": "Jumlah Faedah Diperolehi:",
+        "finalAmount": "Jumlah Akhir:"
+      },
+      "education": {
+        "title": "Memahami Deposit Tetap",
+        "description": "Deposit tetap (FD) adalah instrumen kewangan yang menyediakan kadar pulangan yang lebih tinggi berbanding akaun simpanan biasa, sehingga tarikh matang yang diberikan.",
+        "benefits": "Faedah Utama:",
+        "benefitsList": [
+          "Pulangan terjamin dengan kadar faedah tetap",
+          "Pilihan pelaburan yang selamat dengan risiko rendah",
+          "Pilihan tempoh yang fleksibel",
+          "Kemudahan pinjaman terhadap FD"
+        ],
+        "compoundingImpact": "Kesan Kekerapan Kompaun:",
+        "compoundingList": [
+          "Harian: Faedah dikompaun setiap hari (365 kali/tahun)",
+          "Bulanan: Faedah dikompaun setiap bulan (12 kali/tahun)",
+          "Suku Tahunan: Faedah dikompaun setiap suku tahun (4 kali/tahun)",
+          "Tahunan: Faedah dikompaun sekali setahun"
+        ]
+      }
+    },
+    "emergencyFund": {
+      "title": "Kalkulator Dana Kecemasan",
+      "description": "Tentukan berapa banyak yang perlu anda simpan untuk kecemasan kewangan.",
+      "features": [
+        "Perlindungan perbelanjaan 3-6 bulan",
+        "Pengiraan garis masa simpanan",
+        "Perancangan sumbangan bulanan"
+      ],
+      "pageTitle": "Kalkulator Dana Kecemasan",
+      "pageDescription": "Bina jaring keselamatan kewangan anda. Kira berapa banyak yang perlu anda simpan untuk kecemasan dan buat pelan untuk mencapai matlamat anda.",
+      "details": "Butiran Dana Kecemasan",
+      "monthlyExpenses": "Perbelanjaan Bulanan",
+      "monthlyExpensesPlaceholder": "Masukkan perbelanjaan bulanan anda",
+      "monthlyExpensesHelp": "Termasuk sewa, utiliti, makanan, pengangkutan, dan perbelanjaan penting lain",
+      "currentSavings": "Simpanan Kecemasan Semasa",
+      "currentSavingsPlaceholder": "Masukkan simpanan kecemasan semasa",
+      "targetMonths": "Sasaran Bulan Perbelanjaan",
+      "targetOptions": {
+        "3months": "3 bulan (Minimum disyorkan)",
+        "6months": "6 bulan (Cadangan standard)",
+        "9months": "9 bulan (Pendekatan konservatif)",
+        "12months": "12 bulan (Keselamatan maksimum)"
+      },
+      "monthlyContribution": "Sumbangan Bulanan",
+      "monthlyContributionPlaceholder": "Masukkan jumlah simpanan bulanan",
+      "calculateFund": "Kira Dana Kecemasan",
+      "results": {
+        "title": "Status Dana Kecemasan",
+        "targetFund": "Sasaran Dana Kecemasan:",
+        "currentSavings": "Simpanan Semasa:",
+        "amountNeeded": "Jumlah Masih Diperlukan:",
+        "monthsToTarget": "Bulan ke Sasaran:",
+        "congratulations": "Tahniah! Anda telah mencapai matlamat dana kecemasan anda."
+      },
+      "education": {
+        "title": "Asas Dana Kecemasan",
+        "description": "Dana kecemasan adalah jaring keselamatan kewangan yang direka untuk menampung perbelanjaan tidak dijangka seperti bil perubatan, kehilangan pekerjaan, atau pembaikan besar.",
+        "timeline": "Garis Masa Disyorkan:",
+        "timelineList": [
+          "3 bulan: Minimum untuk pekerjaan yang stabil",
+          "6 bulan: Cadangan standard untuk kebanyakan orang",
+          "9-12 bulan: Untuk pendapatan tidak teratur atau pekerjaan berisiko tinggi"
+        ],
+        "bestPractices": "Amalan Terbaik:",
+        "practicesList": [
+          "Simpan dana dalam akaun simpanan hasil tinggi",
+          "Buat ia mudah diakses tetapi berasingan dari perbelanjaan harian",
+          "Automasikan sumbangan bulanan",
+          "Hanya gunakan untuk kecemasan sebenar"
+        ]
+      }
+    },
+    "annualSavings": {
+      "title": "Kalkulator Simpanan Tahunan",
+      "description": "Rancang simpanan persaraan anda dan kira sumbangan tahunan yang diperlukan.",
+      "features": [
+        "Perancangan persaraan",
+        "Unjuran pertumbuhan pelaburan",
+        "Pengiraan simpanan yang diperlukan"
+      ],
+      "pageTitle": "Kalkulator Simpanan Tahunan",
+      "pageDescription": "Rancang persaraan dan matlamat kewangan jangka panjang anda. Kira berapa banyak yang perlu anda simpan setiap tahun untuk mencapai jumlah sasaran anda.",
+      "details": "Perancangan Persaraan",
+      "targetAmount": "Jumlah Sasaran Persaraan",
+      "targetAmountPlaceholder": "Masukkan matlamat persaraan anda",
+      "targetAmountHelp": "Berapa banyak wang yang anda mahu ada apabila anda bersara?",
+      "currentAge": "Umur Semasa",
+      "currentAgePlaceholder": "Masukkan umur semasa anda",
+      "retirementAge": "Umur Persaraan Dirancang",
+      "retirementAgePlaceholder": "Masukkan umur persaraan yang dirancang",
+      "expectedReturn": "Pulangan Tahunan Dijangka (%)",
+      "expectedReturnPlaceholder": "Pulangan pelaburan dijangka",
+      "expectedReturnHelp": "Purata sejarah pasaran saham adalah sekitar 7-10%",
+      "currentSavings": "Simpanan Persaraan Semasa",
+      "currentSavingsPlaceholder": "Masukkan simpanan semasa",
+      "calculatePlan": "Kira Pelan Simpanan",
+      "results": {
+        "title": "Keputusan Pelan Simpanan",
+        "retirementGoal": "Matlamat Persaraan:",
+        "currentSavings": "Simpanan Semasa:",
+        "futureValue": "Nilai Masa Depan Simpanan Semasa:",
+        "yearsToRetirement": "Tahun ke Persaraan:",
+        "additionalNeeded": "Jumlah Tambahan Diperlukan:",
+        "requiredAnnual": "Simpanan Tahunan Diperlukan:",
+        "requiredMonthly": "Simpanan Bulanan Diperlukan:"
+      },
+      "education": {
+        "title": "Petua Perancangan Persaraan",
+        "description": "Perancangan persaraan adalah penting untuk keselamatan kewangan. Semakin awal anda mula, semakin banyak masa wang anda perlu berkembang melalui faedah kompaun.",
+        "strategies": "Strategi Utama:",
+        "strategiesList": [
+          "Mula Awal: Walaupun jumlah kecil boleh berkembang dengan ketara dari masa ke masa",
+          "Automasikan Simpanan: Sediakan pemindahan automatik ke akaun persaraan",
+          "Pelbagaikan Pelaburan: Jangan letakkan semua telur dalam satu bakul",
+          "Manfaatkan Padanan Majikan: Wang percuma dari padanan 401(k)"
+        ],
+        "ruleOfThumb": "Peraturan Praktikal:",
+        "rulesList": [
+          "Simpan 10-15% daripada pendapatan anda untuk persaraan",
+          "Sasar untuk menggantikan 70-90% daripada pendapatan sebelum persaraan",
+          "Pertimbangkan inflasi dalam perancangan anda (3% setiap tahun)",
+          "Semak dan laraskan pelan anda setiap tahun"
+        ],
+        "disclaimer": "Nota: Kalkulator ini memberikan anggaran berdasarkan input yang diberikan. Berunding dengan penasihat kewangan untuk nasihat perancangan persaraan yang diperibadikan."
+      }
+    }
+  },
+  "learn": {
+    "title": "Pusat Pembelajaran Kewangan",
+    "description": "Kuasai asas kewangan peribadi dengan panduan komprehensif, petua praktikal, dan wawasan pakar kami. Mulakan perjalanan anda ke kebebasan kewangan hari ini.",
+    "learningPath": {
+      "title": "Laluan Pembelajaran Kewangan Anda",
+      "steps": [
+        {
+          "title": "Asas",
+          "description": "Pelajari asas kewangan"
+        },
+        {
+          "title": "Belanjawan",
+          "description": "Kuasai pengurusan wang"
+        },
+        {
+          "title": "Simpanan",
+          "description": "Bina asas kewangan anda"
+        },
+        {
+          "title": "Pelaburan",
+          "description": "Kembangkan kekayaan anda"
+        }
+      ]
+    },
+    "topics": {
+      "emergencyFund": {
+        "title": "Asas Dana Kecemasan",
+        "description": "Pelajari mengapa dana kecemasan penting dan cara membina satu yang melindungi anda daripada bencana kewangan.",
+        "whatYoullLearn": "Apa Yang Akan Anda Pelajari:",
+        "learningPoints": [
+          "Mengapa dana kecemasan penting",
+          "Berapa banyak untuk simpan (peraturan 3-6 bulan)",
+          "Di mana simpan wang kecemasan",
+          "Bila gunakan dana kecemasan anda"
+        ]
+      },
+      "fixedDeposit": {
+        "title": "Pelaburan Deposit Tetap",
+        "description": "Fahami bagaimana deposit tetap berfungsi dan pelajari cara memaksimumkan pulangan anda melalui faedah kompaun.",
+        "whatYoullLearn": "Apa Yang Akan Anda Pelajari:",
+        "learningPoints": [
+          "Bagaimana faedah kompaun berfungsi",
+          "Memilih tempoh FD yang tepat",
+          "Membandingkan kadar faedah",
+          "Implikasi cukai FD"
+        ]
+      },
+      "retirementPlanning": {
+        "title": "Perancangan Persaraan",
+        "description": "Rancang untuk tahun emas anda dengan strategi simpanan pintar dan unjuran pertumbuhan pelaburan.",
+        "whatYoullLearn": "Apa Yang Akan Anda Pelajari:",
+        "learningPoints": [
+          "Menetapkan matlamat persaraan",
+          "Kuasa memulakan awal",
+          "Strategi peruntukan pelaburan",
+          "401(k) dan padanan majikan"
+        ]
+      },
+      "budgeting": {
+        "title": "Asas Belanjawan",
+        "description": "Kuasai seni membuat belanjawan untuk mengawal wang anda dan mencapai matlamat kewangan anda.",
+        "keyConcepts": "Konsep Utama:",
+        "concepts": [
+          "Peraturan belanjawan 50/30/20",
+          "Menjejaki perbelanjaan anda",
+          "Belanjawan berasaskan sifar",
+          "Alat dan aplikasi belanjawan"
+        ]
+      },
+      "debtManagement": {
+        "title": "Pengurusan Hutang",
+        "description": "Pelajari strategi untuk membayar hutang dengan cekap dan mengelakkan perangkap hutang yang memerangkap ramai orang.",
+        "strategiesCovered": "Strategi Yang Dibahas:",
+        "strategies": [
+          "Bola salji hutang vs. longsor",
+          "Pengurusan kad kredit",
+          "Pilihan penyatuan hutang",
+          "Membina kredit yang baik"
+        ]
+      },
+      "homeBuying": {
+        "title": "Panduan Membeli Rumah",
+        "description": "Navigasi proses membeli rumah dengan yakin, dari simpan untuk bayaran muka hingga penutupan.",
+        "whatsIncluded": "Apa Yang Disertakan:",
+        "included": [
+          "Strategi bayaran muka",
+          "Jenis gadai janji dijelaskan",
+          "Pengiraan kemampuan rumah",
+          "Program pembeli kali pertama"
+        ]
+      }
+    },
+    "financialTips": {
+      "title": "Petua Kewangan Penting",
+      "gettingStarted": "Memulakan",
+      "buildingWealth": "Membina Kekayaan",
+      "gettingStartedTips": [
+        {
+          "title": "Jejaki Perbelanjaan Anda:",
+          "description": "Tahu ke mana wang anda pergi sebelum anda boleh mengawalnya."
+        },
+        {
+          "title": "Bina Dana Kecemasan:",
+          "description": "Mulakan dengan $1,000, kemudian usahakan ke arah 3-6 bulan perbelanjaan."
+        },
+        {
+          "title": "Bayar Hutang Faedah Tinggi:",
+          "description": "Fokus pada kad kredit dan hutang faedah tinggi lain dahulu."
+        }
+      ],
+      "buildingWealthTips": [
+        {
+          "title": "Mula Melabur Awal:",
+          "description": "Masa adalah aset terbesar anda apabila membina kekayaan."
+        },
+        {
+          "title": "Automasikan Simpanan Anda:",
+          "description": "Bayar diri anda dahulu dengan mengautomasikan pemindahan ke simpanan."
+        },
+        {
+          "title": "Pelbagaikan Pelaburan Anda:",
+          "description": "Jangan letakkan semua telur anda dalam satu bakul."
+        }
+      ]
+    },
+    "actionSection": {
+      "title": "Bersedia untuk Bertindak?",
+      "description": "Pengetahuan tanpa tindakan hanya potensi. Mula aplikasikan apa yang anda pelajari dengan kalkulator interaktif kami dan mula bina masa depan kewangan anda hari ini.",
+      "buttons": {
+        "emergencyFund": "Mula dengan Dana Kecemasan",
+        "fixedDeposit": "Kira Pulangan FD",
+        "retirement": "Rancang untuk Persaraan"
+      }
+    }
+  },
+  "about": {
+    "title": "Tentang Pusat Pembelajaran Kewangan",
+    "description": "Memperkasakan individu dengan pengetahuan dan alat yang mereka perlukan untuk membuat keputusan kewangan yang bermaklumat dan membina masa depan kewangan yang selamat.",
+    "mission": {
+      "title": "Misi Kami",
+      "paragraph1": "Literasi kewangan adalah kemahiran hidup penting yang setiap orang berhak miliki. Misi kami adalah untuk menjadikan pendidikan kewangan boleh diakses, praktikal, dan menarik untuk orang di semua peringkat perjalanan kewangan mereka. Kami percaya bahawa dengan alat dan pengetahuan yang betul, sesiapa pun boleh mengawal kewangan mereka dan membina kekayaan untuk masa depan.",
+      "paragraph2": "Melalui kalkulator interaktif, kandungan pendidikan, dan panduan praktikal, kami berhasrat untuk menyahkelirukan kewangan peribadi dan membantu anda membuat keputusan kewangan yang yakin yang selaras dengan matlamat dan nilai anda."
+    },
+    "whatWeOffer": [
+      {
+        "title": "Kalkulator Interaktif",
+        "description": "Kalkulator yang berkuasa dan mudah digunakan untuk deposit tetap, dana kecemasan, dan perancangan simpanan tahunan. Dapatkan hasil segera dengan pecahan dan penjelasan yang terperinci."
+      },
+      {
+        "title": "Kandungan Pendidikan",
+        "description": "Panduan dan artikel komprehensif yang menerangkan konsep kewangan dalam istilah mudah. Belajar mengikut kadar anda sendiri dengan contoh praktikal dan aplikasi dunia sebenar."
+      },
+      {
+        "title": "Panduan Pakar",
+        "description": "Amalan terbaik dan strategi yang dibangunkan oleh pakar kewangan. Dapatkan nasihat yang boleh dilaksanakan yang boleh anda laksanakan segera untuk memperbaiki situasi kewangan anda."
+      }
+    ],
+    "ourStory": {
+      "title": "Cerita Kami",
+      "paragraph1": "Pusat Pembelajaran Kewangan dicipta daripada pemerhatian mudah: terlalu ramai orang bergelut dengan konsep kewangan asas bukan kerana mereka kurang kecerdasan, tetapi kerana mereka kurang akses kepada pendidikan kewangan yang jelas dan praktikal.",
+      "paragraph2": "Kami perasan bahawa pendidikan kewangan tradisional sering melibatkan jargon kompleks, konsep yang menakutkan, dan pengetahuan teori yang tidak diterjemahkan dengan baik kepada situasi dunia sebenar. Kami mahu mengubah itu.",
+      "paragraph3": "Platform kami menggabungkan alat interaktif dengan kandungan pendidikan untuk mencipta pengalaman pembelajaran yang praktikal dan menarik. Sama ada anda baru memulakan perjalanan kewangan anda atau ingin mengoptimumkan strategi kewangan sedia ada anda, kami di sini untuk membantu anda berjaya."
+    },
+    "values": {
+      "title": "Nilai Kami",
+      "valuesList": [
+        {
+          "title": "Kebolehcapaian",
+          "description": "Pendidikan kewangan harus tersedia untuk semua orang, tanpa mengira latar belakang atau situasi kewangan semasa mereka."
+        },
+        {
+          "title": "Kesederhanaan",
+          "description": "Kami memecahkan konsep kewangan kompleks kepada istilah mudah yang boleh difahami oleh sesiapa sahaja."
+        },
+        {
+          "title": "Kepraktisan",
+          "description": "Alat dan kandungan kami fokus pada strategi yang boleh dilaksanakan yang boleh anda laksanakan dalam kehidupan kewangan harian anda."
+        },
+        {
+          "title": "Ketelusan",
+          "description": "Kami memberikan penjelasan yang jelas tentang bagaimana kalkulator kami berfungsi dan andaian di sebalik cadangan kami."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "description": "Ada soalan, cadangan, atau maklum balas? Kami ingin mendengar daripada anda dan membantu anda dalam perjalanan kewangan anda.",
+      "buttons": {
+        "startLearning": "Mula Belajar",
+        "tryCalculators": "Cuba Kalkulator Kami"
+      }
+    }
+  },
+  "footer": {
+    "quickLinks": "Pautan Pantas",
+    "calculators": "Kalkulator",
+    "copyright": "© 2024 Pusat Pembelajaran Kewangan. Semua hak terpelihara."
+  }
+}
